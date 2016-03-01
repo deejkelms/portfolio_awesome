@@ -1,7 +1,5 @@
 require 'sinatra'
-require 'httparty'
-require 'nokogiri'
-require 'json'
+
 
 
   get '/' do
