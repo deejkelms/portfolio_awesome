@@ -24,6 +24,7 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     </head>
 
 
@@ -45,7 +46,7 @@
           <a href="https://github.com/deejkelms" class="git"><i class="fa fa-github fa-1x"></i></a>
           <a href="https://plus.google.com/u/0/111860017997673801924/posts" class="plus"><i class="fa fa-google-plus fa-1x"></i></a>
           <a href="https://www.instagram.com/djkelmanson/" class="insta"><i class="fa fa-instagram fa-1x"></i></a>
-          <a href="blogg.html" class="share"><i class="fa fa-share-alt fa-1x"></i></a>
+          <a href="gmail.com" class="email"><i class="fa fa-envelope fa-1x"></i></a>
         </div>
       </div>
     </div>
@@ -61,18 +62,18 @@
 
     <div class="container container1">
         <div class="row">
-           <div class="col-md-offset-2 col-md-8" id="statement">
-            <p>Aspiring Junior Web Developer looking to aggresively grow within the tech industry. Click the link below to check out my blog and see how I am progressing!</p>
+           <div class="col-lg-offset-1 col-lg-10" id="statement">
+            <p class="ubuntu">Aspiring Junior Web Developer looking to grow within the tech industry. Click this <a href="#">link</a> to check out my blog and see how I am progressing!</p>
 
             <div class="container">
               <div class="row">
-                <div class="col-md-4" id="icons">
-                  <img src="img/ruby.png" style="width:50px;height:50px;">
-                  <img src="img/rails.png" style="width:50px;height:50px;">
-                  <img src="img/js.png" style="width:50px;height:50px;">
-                  <img src="img/html5.png" style="width:50px;height:50px;">
-                  <img src="img/css3.png" style="width:50px;height:50px;">
-                  <img src="img/bootstrap.png" style="width:50px;height:50px;">
+                <div class="col-lg-offset-1 col-lg-10" id="logos">
+                  <img src="img/bootstrap.png" class="img-responsive">
+                  <img src="img/ruby.png">
+                  <img src="img/rails.png">
+                  <img src="img/js.png">
+                  <img src="img/html5.png">
+                  <img src="img/css3.png">
                 </div>
              </div>
            </div>
@@ -88,7 +89,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-bottom">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Derek Kelmanson Jr.</a>
+          <a class="navbar-brand" href="#home">Derek Kelmanson Jr.</a>
         </div>
         <ul class="nav navbar-nav">
           <li><a href="#about">About me</a></li>
@@ -106,10 +107,10 @@
         </div>
             <div class="row about">
               <!--   <div class="col-md-6"> -->
-                <h1>About Me</h1>
-                <p>My name is Derek Kelmanson and I have always loved working with technology. I built my first Batman themed fan website in highschool using only HTML. Computer languages have really progressed since than and you are able to build more beautuful and functional things.</p>
-                <p>I did not always realize my dream was to work as a computer programmer though, I always though of it as a hobby or something I wasnt smart or capable enough to do for a living. Thanks to the support from my family and Wyncode I was able to realize I wanted to chase that passion!</p>
-          <!--    </div> -->
+                <h1>Hello World!</h1>
+                <p>Welcome to my web portfolio. My name is Derek and I’m a junior full-stack web developer currently coding in Fort Lauderdale, FL. If there’s one thing to know about me, it’s that I love technology (and cars and Batman, but that’s a story for another time). I taught myself HTML in high school and have continued learning different languages ever since. Late last year, I decided to quit my job and pursue web development full-time and, although difficult, it has been one of the best decisions I have made. Check out my past projects and let’s work together to create something awesome.</p>
+
+        <!--    </div> -->
             </div>
     </div>
 
@@ -124,10 +125,9 @@
 
 
 
-    <div id="projects" class="container" style="height: 500px;">
-        <div class="row">
+    <div id="projects" class="container">
+      <div class="row">
         <div class="col-lg-4">
-          <!-- <p class="text-danger">As of v8.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p> -->
           <p>
           <h2>REPL Game</h2>
           <p>For my first project, I was tasked with writing out a simple Ruby based REPL(read-eval-print-loop) text adventure game. I have learned a lot since than!</p>
@@ -137,22 +137,21 @@
           <h2>Walkr</h2>
           <p>My First real web based application. I worked on this app with a small group. We built this with Ruby, Ruby on Rails, HTML, and Pure CSS. The idea is to bring dogs and dog walkrs together.</p>
           <p><a class="btn btn-default" href="https://github.com/deejkelms/Walkr-app" role="button">View details</a></p>
-       </div>
+        </div>
         <div class="col-lg-4">
-          <h2>Stock Ticker</h2>
+          <h2>FanLuv</h2>
           <p>This is a smaller program I worked on to better understand API's. Enter a stock symbol and it will return the current price plus how much its dropped or risen since the last market close price!</p>
           <p><a class="btn btn-default" href="#" role="button">View details</a></p>
         </div>
       </div>
-        </div>
-     </div>
+    </div>
 
      <hr class="featurette-divider">
 
-     <div class="container">
-          <div class="row">
-            <div class="col-lg-offset-3 col-lg-6">
-              <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-offset-3 col-lg-6">
+            <div id="contact">
               <h1>Contact Me!</h1>
               <p>408 Ne 6th St Fort Lauderdale, FL 33304
               <p>Shoot me a call or text at <b>954.288.0251</b></p>
@@ -160,12 +159,19 @@
                 <input type="email" placeholder="Email">
                 <input type="submit">
                 <p>Or send me an email!</p> -->
-                <p>Send me an email at dkelmanson@gmail.com</p>
-                <a href="https://www.gmail.com" class="mail"><i class="fa fa-envelope fa-3x"></i></a>
-              </div>
+                <p>Send me an email at <a href="dkelmanson@gmail.com">dkelmanson@gmail.com</a></p>
+                <a href="https://www.gmail.com" class="mail">
+              <a href="https://twitter.com/KelmansonDj" class="twitter"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/derek-kelmanson-49965541" class="in"><i class="fa fa-linkedin fa-2x"></i></a>
+              <a href="https://github.com/deejkelms" class="git"><i class="fa fa-github fa-2x"></i></a>
+              <a href="https://plus.google.com/u/0/111860017997673801924/posts" class="plus"><i class="fa fa-google-plus fa-2x"></i></a>
+              <a href="https://www.instagram.com/djkelmanson/" class="insta"><i class="fa fa-instagram fa-2x"></i></a>
+              <a href="gmail.com" class="email"><i class="fa fa-envelope fa-2x"></i></a>
             </div>
           </div>
         </div>
+      </div>
+
 
     <!-- <div class="container">
         <div class="row">

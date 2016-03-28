@@ -10,10 +10,16 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+p {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family:'Ubuntu', sans-serif;
+}
+
+p.ubuntu{
+  color:white;
+  font-family:'Ubuntu', sans-serif;
 }
 
 /*
@@ -112,28 +118,54 @@ header {
     background-size: cover;
 }
 
-#icons{
+#icons {
     text-align:right;
     font-size: 1.5em;
     color:white;
     margin-bottom:10px;
+    margin-top: 20px;
 }
 
-
-.fa {
-    color: white;
+#icons >a#icons {
+  color:white;
 }
 
-.fa:hover { 
+#logos img {
+    width:50px;
+    height:50px;
+    color:white;
+    margin-bottom:10px;
+    float:left;
+    padding-right:5px;
+}
+
+#logos {
+    margin: 0;
+    padding: 0;
+}
+
+.fa:hover {
     color: gray;
+}
+
+#buttons > #awesome{
+  color: blue;
+}
+#buttons:hover {
+  color: gray;
+}
+
+#icons > .fa {
+    color: white;
 }
 
 #statement {
     color: white;
     font-size: 25px;
     margin-top: 60px;
-    margin-left: 30px;
+    /*margin-left: 30px;*/
     font-family: arial;
+    text-align:justify;
 }
 
 em {
@@ -147,7 +179,7 @@ em {
 
 #projects {
     color: black;
-    height: 800px;
+    /*height: 100px;*/
     background-color: white;
 }
 
@@ -160,6 +192,7 @@ em {
     border-radius:50%;
     padding:30px;
     margin-bottom: 60px;
+    margin-top: 20px;
 }
 
 #profile img {
@@ -208,10 +241,7 @@ em {
     color:white;
     display:inline;
     padding:30px;
-    
-}
-#projects.container {
-    height: 500px;
+
 }
 
 .row-projects {
@@ -238,10 +268,9 @@ em {
 
 #contact {
     text-align: center;
+    margin-bottom: 100px;
+    margin-top: 10px;
 }
-
-
-
 
 
 
@@ -357,8 +386,10 @@ em {
         text-shadow: none !important;
     }
 
+
     a,
     a:visited {
+        color:white;
         text-decoration: underline;
     }
 
