@@ -20,6 +20,7 @@ p {
 p.ubuntu{
   color:white;
   font-family:'Ubuntu', sans-serif;
+  position: center;
 }
 
 /*
@@ -111,7 +112,7 @@ textarea {
 
 header {
     background-image: url(../img/dkbg.jpg);
-    min-height: 890px;
+    min-height: 870px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,13 +122,9 @@ header {
 #icons {
     text-align:right;
     font-size: 1.5em;
-    color:white;
+    color: white;
     margin-bottom:10px;
     margin-top: 20px;
-}
-
-#icons >a#icons {
-  color:white;
 }
 
 #logos img {
@@ -142,20 +139,14 @@ header {
 #logos {
     margin: 0;
     padding: 0;
+    position: center;
 }
 
 .fa:hover {
     color: gray;
 }
 
-#buttons > #awesome{
-  color: blue;
-}
-#buttons:hover {
-  color: gray;
-}
-
-#icons > .fa {
+#icons {
     color: white;
 }
 
@@ -184,7 +175,6 @@ em {
 }
 
 
-
 .logo{
     border:1px solid white;
     color:white;
@@ -204,6 +194,7 @@ em {
 #profile {
     margin-top: 100px;
     margin-bottom: 80px;
+    margin-right: 80px;
     float: right;
     height: 25%;
     width: 25%;
@@ -218,6 +209,8 @@ em {
 .row.about {
     margin-top: 100px;
     margin-bottom: 80px;
+    margin-left: 50px;
+    font-size: 16px;
 }
 
 .billboard {
