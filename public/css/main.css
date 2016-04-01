@@ -45,12 +45,12 @@ p.ubuntu{
  * A better looking default horizontal rule
  */
 
-hr {
+.divider {
     display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin-top: 230px;
     padding: 0;
 }
 
@@ -122,56 +122,64 @@ header {
 #icons {
     text-align:right;
     font-size: 1.5em;
-    color: white;
+    color: white !important;
     margin-bottom:10px;
     margin-top: 20px;
 }
 
 #logos img {
-    width:50px;
-    height:50px;
+    max-width:50px;
+    max-height:50px;
     color:white;
     margin-bottom:10px;
-    float:left;
     padding-right:5px;
 }
-
+/*
 #logos {
     margin: 0;
     padding: 0;
-    position: center;
-}
+    text-align:center;
+}*/
 
 .fa:hover {
     color: gray;
 }
 
-#icons {
+.icon.fa {
     color: white;
 }
+.icon.fa:hover {
+    color: gray;
+}
 
+/*#icons {
+    color: white;
+}
+*/
 #statement {
     color: white;
     font-size: 25px;
-    margin-top: 60px;
+    margin-top: 100px;
     /*margin-left: 30px;*/
     font-family: arial;
-    text-align:justify;
+    text-align:center;
 }
 
 em {
     font-size: 20px;
 }
 
-.container1{
+/*.container1{
     height:400px;
     margin-top:100px;
-}
+}*/
 
 #projects {
     color: black;
     /*height: 100px;*/
     background-color: white;
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
 
 
@@ -185,6 +193,11 @@ em {
     margin-top: 20px;
 }
 
+#home {
+    width:100px;
+    margin-top:-35px;
+}
+
 #profile img {
     text-align: right;
     height: 100%;
@@ -194,23 +207,26 @@ em {
 #profile {
     margin-top: 100px;
     margin-bottom: 80px;
-    margin-right: 80px;
+    margin-right: 80plin
     float: right;
     height: 25%;
     width: 25%;
 }
 
-.container.about {
-    height: auto;
-    padding-right: auto;
-    padding-left: auto;
+.hi{
+    font-size:48px;
 }
 
-.row.about {
-    margin-top: 100px;
-    margin-bottom: 80px;
-    margin-left: 50px;
-    font-size: 16px;
+#about>img{
+    max-width:350px;
+    max-height:350px;
+    
+}
+
+.container.about {
+    height: auto;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 .billboard {
@@ -220,16 +236,19 @@ em {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top:150px;
 }
 
-.col-lg-12 {
+/*.col-lg-12 {
     text-align: center;
     padding-top: 10%;
     padding-bottom: 10%;
-}
+}*/
 
-.projects{
+.projectHeader{
     /*height: 500px;*/
+    height:350px;
+    vertical-align: middle;
     border:1px solid white;
     color:white;
     display:inline;
@@ -244,26 +263,103 @@ em {
 
 #profile {
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 15px;
     float: right;
-    height: 25%;
-    width: 25%;
+    height: 250px;
+    width: 225px;
 }
 
-.container.about {
+/*.container.about {
     height: auto;
 }
+*/
+.row.board {
+    text-align: center;
+}
+
 
 .row {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left:100px;
+    margin-right:100px;
 }
+
 
 #contact {
     text-align: center;
-    margin-bottom: 100px;
-    margin-top: 10px;
+    margin-bottom: 130px;
+    margin-top: 50px;
 }
+
+.row.snaps {
+    margin-left:100px;
+    margin-right:100px;
+    height: 230px;
+}
+
+
+#repl {
+    background-image: url(../img/repl.png);
+    background-position:left;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 250px;
+}
+
+#walkr {
+    background-image: url(../img/walker.png);
+    background-position:left;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 250px;
+}
+
+#voterSim {
+    background-image: url(../img/voterSim.png);
+    background-position:left;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 250px;
+}
+
+#fanluv {
+    background-image: url(../img/fanluv.png);
+    background-position:left;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 250px;
+}
+
+
+
+
+.card-container {
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.card .back {
+  transform: rotateY(180deg);
+}
+
+
+
 
 
 
@@ -379,7 +475,6 @@ em {
         text-shadow: none !important;
     }
 
-
     a,
     a:visited {
         color:white;
@@ -393,6 +488,7 @@ em {
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
+
 
     /*
      * Don't show links that are fragment identifiers,
