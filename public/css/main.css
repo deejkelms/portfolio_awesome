@@ -301,7 +301,7 @@ em {
 /* BUTTONS FOR PROJECTS */
 
 #repl {
-    background-image: url(../img/repl.png);
+    background-image: url(../img/repl.svg);
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
@@ -309,7 +309,7 @@ em {
 }
 
 #walkr {
-    background-image: url(../img/walker.png);
+    background-image: url(../img/walkr.svg);
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
@@ -317,7 +317,7 @@ em {
 }
 
 #voterSim {
-    background-image: url(../img/voterSim.png);
+    background-image: url(../img/votersim.svg);
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
@@ -325,7 +325,7 @@ em {
 }
 
 #fanluv {
-    background-image: url(../img/fanluv.png);
+    background-image: url(../img/fanluv.svg);
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
