@@ -301,7 +301,7 @@ em {
 /* BUTTONS FOR PROJECTS */
 
 #repl {
-    background-image: url(../img/repl.svg);
+    background-image: url(../img/repl.png);
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
@@ -309,7 +309,7 @@ em {
 }
 
 #walkr {
-    background-image: url(../img/walkr.svg);
+    background-image: url(../img/walkr.png);
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
@@ -317,7 +317,7 @@ em {
 }
 
 #voterSim {
-    background-image: url(../img/votersim.svg);
+    background-image: url(../img/votersim.png);
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
@@ -325,7 +325,7 @@ em {
 }
 
 #fanluv {
-    background-image: url(../img/fanluv.svg);
+    background-image: url(../img/fanluv.png);
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
@@ -339,7 +339,7 @@ em {
   width: 250px;
 }
 .card {
-  height: 100%;
+  height: 57%;
   position: absolute;
   transform-style: preserve-3d;
   transition: all 1s ease-in-out;
