@@ -50,7 +50,7 @@ p.ubuntu{
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin-top: 230px;
+    margin-top: 150px;
     padding: 0;
 }
 
@@ -174,15 +174,6 @@ em {
     margin-top:100px;
 }*/
 
-#projects {
-    color: black;
-    /*height: 100px;*/
-    background-color: white;
-    margin-bottom: 80px;
-    margin-top: 50px;
-}
-
-
 .logo{
     border:1px solid white;
     color:white;
@@ -256,11 +247,6 @@ em {
 
 }
 
-.row-projects {
-    color: white;
-    text-align: center;
-}
-
 #profile {
     margin-top: 100px;
     margin-bottom: 15px;
@@ -296,13 +282,30 @@ em {
     height: 230px;
 }
 
+/* PROJECTS BANNER */
+
+.row-projects {
+    color: white;
+    text-align: center;
+}
+
+#projects {
+    color: black;
+    /*height: 100px;*/
+    background-color: white;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+
+/* BUTTONS FOR PROJECTS */
 
 #repl {
     background-image: url(../img/repl.png);
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
-    height: 250px;
+/*    height: 250px;*/
 }
 
 #walkr {
@@ -310,7 +313,7 @@ em {
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
-    height: 250px;
+/*    height: 250px;*/
 }
 
 #voterSim {
@@ -318,7 +321,7 @@ em {
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
-    height: 250px;
+/*    height: 250px;*/
 }
 
 #fanluv {
@@ -326,17 +329,14 @@ em {
     background-position:left;
     background-repeat:no-repeat;
     background-size:cover;
-    height: 250px;
+  /*  height: 250px;*/
 }
 
-
-
-
 .card-container {
-  height: 150px;
+  height: 250px;
   perspective: 600;
   position: relative;
-  width: 150px;
+  width: 250px;
 }
 .card {
   height: 100%;
@@ -356,9 +356,11 @@ em {
 }
 .card .back {
   transform: rotateY(180deg);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-
+/* END BUTTONS PROJECTS */
 
 
 
